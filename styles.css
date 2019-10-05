@@ -1,0 +1,184 @@
+/* CSS files add styling rules to your content */
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  background-color: #ff745c;
+}
+a:link {
+  text-decoration: none;
+}
+h2,
+h3 {
+  margin: 1em auto 0.3em;
+}
+h2 {
+  font-size: 60px;
+  text-transform: uppercase;
+  margin-top: 24px;
+  line-height: 1em;
+}
+h4 {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 17px;
+  margin-top: 24px;
+  font-weight: normal;
+  font-family: "Crimson Text", serif;
+  letter-spacing: 4px;
+}
+p {
+  font-family: "Crimson Text", serif;
+  font-size: 18px;
+}
+.site-title {
+  font-family: "Josefin Sans", sans-serif;
+  width: 300px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  padding: 10px;
+}
+.site-title a {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.166667em;
+  font-weight: 700;
+  font-style: normal;
+  color: #ff745c;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 1.2em;
+}
+.section-content {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  padding: 150px 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.featured-image .section-content {
+  padding: 200px 20px;
+}
+
+.featured-image {
+  background-image: linear-gradient(
+      rgba(28, 13, 10, 0.65),
+      rgba(28, 13, 10, 0.65)
+    ),
+    url("https://images.unsplash.com/photo-1517457373958-b7bdd4587205?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80");
+}
+
+.date-image {
+  background-image: linear-gradient(
+      rgba(28, 13, 10, 0.75),
+      rgba(28, 13, 10, 0.75)
+    ),
+    url("https://picsum.photos/900?date");
+}
+
+.gallery-image {
+  background-image: linear-gradient(
+      rgba(28, 13, 10, 0.75),
+      rgba(28, 13, 10, 0.75)
+    ),
+    url("https://picsum.photos/900?date");
+}
+.section-photo {
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.section-photo .section-content {
+  color: white;
+}
+
+a.round-btn {
+  background: white;
+  color: black;
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 300px;
+  vertical-align: text-bottom;
+}
+.header-title {
+  margin: 0;
+}
+.white-section {
+  background: white;
+}
+.white-section .section-content h3 {
+  color: #ff745c;
+}
+.beige-section {
+  background: #faebe3;
+}
+.beige-section .section-content h2 {
+  color: rgba(28, 13, 10, 0.9);
+}
+
+.beige-section .section-content h4 {
+  color: rgba(28, 13, 10, 0.8);
+}
+
+.btn {
+  -webkit-font-smoothing: subpixel-antialiased;
+  background: transparent;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  text-align: center;
+  text-decoration: none;
+  line-height: normal;
+  padding: 13px 26px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-style: normal;
+  border-color: #584e4b;
+  border-width: 2px;
+  border-style: solid;
+  background-color: transparent;
+  transition: 0.1s background-color linear, 0.1s color linear;
+  color: #584e4b;
+  border-radius: 300px;
+}
+
+.gallery {
+  padding: 150px 10%;
+}
+
+.gallery .images {
+  font-size: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery .img-container {
+  margin: 20px;
+}
+
+.gallery .images img {
+  width: 100%;
+  display: block;
+  height: auto;
+  margin: 20px;
+}
+
+.gallery h2 {
+  color: white;
+  text-align: center;
+}
+
+.gallery h3 {
+  color: #ff745c;
+  text-align: center;
+}
