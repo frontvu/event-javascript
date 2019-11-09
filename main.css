@@ -1,0 +1,59 @@
+/* 1. Header */
+h1 {
+  padding: 10px;
+}
+h1 a {
+  color: tomato;
+  font-size: 18px;
+  letter-spacing: 0.166667em;
+  text-transform: uppercase;
+}
+
+h2,
+h3 {
+  margin: 1em auto 0.3em;
+}
+
+h2 {
+  font-size: 60px;
+  margin-top: 24px;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: gainsboro;
+  font-size: 17px;
+  margin-top: 24px;
+  font-weight: normal;
+  font-family: "Crimson Text", serif;
+  letter-spacing: 4px;
+}
+
+/* 2. Paragraph */
+p {
+  font-family: "Crimson Text", serif;
+  font-size: 18px;
+}
+
+/* 3. Class example */
+.section-content {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  padding: 100px 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* 4. Class decendent  */
+.featured-image .section-content {
+  padding: 200px 20px;
+}
+
+/* 5. Link button */
+a.round-btn {
+  background-color: white;
+  color: black;
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 300px;
+}
