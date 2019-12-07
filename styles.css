@@ -5,6 +5,7 @@ html {
   padding: 0;
   margin: 0;
   background-color: #ff745c;
+  position: relative;
 }
 a:link {
   text-decoration: none;
@@ -171,6 +172,7 @@ a.round-btn {
   display: block;
   height: auto;
   margin: 20px;
+  border: solid 2px white;
 }
 
 .gallery h2 {
@@ -181,4 +183,27 @@ a.round-btn {
 .gallery h3 {
   color: #ff745c;
   text-align: center;
+}
+#main {
+  display: none;
+}
+#login {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background: #faebe3;
+}
+#login label {
+  display: block;
+  font-size: larger;
+}
+#passwordinput {
+  border: solid 2px black;
+  font-size: larger;
+}
+#loginerror {
+  color: #ff745c;
+  display: none;
 }
