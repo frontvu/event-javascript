@@ -9,11 +9,23 @@
       rel="stylesheet"
     />
     <link href="styles.css" rel="stylesheet" />
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>    <script src="scripts.js"></script>
     <title>Your Party</title>
   </head>
 
   <body>
-    <div class="main">
+    <div id="login">
+      <div class="form">
+        <label for="passwordinput">Password</label>
+        <input type="password" id="passwordinput" />
+        <button id="loginbutton">Login</button>
+        <div id="loginerror">You've entered the incorrect password!</div>
+      </div>
+    </div>
+    <div id="main">
       <div class="section-photo featured-image">
         <div class="section-content">
           <h1 class="site-title">
@@ -25,7 +37,7 @@
               Birthday Celebration
             </h2>
             <h4>OCTOBER 5, 2019 / KING WEST / TORONTO</h4>
-            <a class="round-btn" href="https://google.com/?form">RSVP</a>
+            <a class="round-btn" onclick="document.getElementById('rsvp').style.display='block'" href="#">RSVP</a>
           </div>
         </div>
       </div>
